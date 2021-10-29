@@ -8,7 +8,31 @@ export const AuthPage = () => {
         <div className="card blue darken-1">
           <div className="card-content white-text">
             <span className="card-title">Авторизация</span>
-            <div></div>
+            <div>
+
+              <div className="input-field ">
+                <input 
+                placeholder="Введите email" 
+                id="email" 
+                type="text" 
+                name="email"
+                className="yellow-input" 
+                />
+                <label htmlFor="email">Email</label>
+              </div>
+              
+              <div className="input-field ">
+                <input 
+                placeholder="Введите email" 
+                id="password" 
+                type="password"
+                name="password"
+                className="yellow-input" 
+                />
+                <label htmlFor="password">Пароль</label>
+              </div>
+
+            </div>
           </div>
           <div class="card-action">
             <button className="btn yellow darken-4" style={{ marginRight: 10 }}>Войти</button>
