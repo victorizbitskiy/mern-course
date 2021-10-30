@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { LinksPage } from './pages/LinksPage'
-import { CreatePage } from './pages/CreatePage'
+import { CreatePage } from './pages/CreagePage'
 import { DetailPage } from './pages/DetailPage'
 import { AuthPage } from './pages/AuthPage'
 
