@@ -20,7 +20,7 @@ router.post(
       if (!errors.isEmpty()) {
         return res.status(400).json({
           errors: errors.array(),
-          message: 'Некорректные данные при авторизации'
+          message: 'Некорректные данные при авторизации o_0'
         })
       }
       const { email, password } = req.body
