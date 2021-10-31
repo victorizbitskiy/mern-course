@@ -38,6 +38,7 @@ router.post(
 
 
     } catch (e) {
+      console.log('Привет', e.message)
       res.status(500).json({ message: 'Что-то пошло не так... Попробуйте снова' })
     }
   })
